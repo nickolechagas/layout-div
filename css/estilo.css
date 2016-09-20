@@ -1,0 +1,50 @@
+/*minha folha de estilo para divs*/
+/*cascating style sheet*/
+/*É posssivel passar propriedades na folha de estilo de tres modos:*/
+
+/*1. propriedades CSS para TAG html*/
+
+body {
+  /*as chaves contem todas as propriedades necessárias para estilização
+da tag definida*/
+
+/*background-color: green;*/
+background-color: #0E4E71;
+/*hexadecimal : ff-red ff-green ff-blue*/
+color: #fff /*propriedade color altera a cor dos textos*/
+}
+/*Propriedades CSS para identificadores (atribuitos ID) */
+/*esta propriedade sempre será procedida de # (sustenido) */
+
+#principal {
+  background-color: red;
+}
+
+#cabecalho {
+  background-color: yellow ;
+}
+
+#menu {
+  background-color: pink ;
+    }
+
+#conteudo {
+  background: purple ;
+}
+
+#rodape {
+  background: blue ;
+}
+
+/*3. Classes de CSS são definidas atraves de nomes proprios */
+/*identificamos atraves de um .(ponto) antes do seu nome */
+
+.minhaclasse {
+  color: yellow ;
+  font-weight: 900;
+}
+
+.minhaimagem {
+  max-widht: 500px
+  min-height: 150px
+}
