@@ -1,0 +1,146 @@
+/*Corpo do site*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font: 12px Arial, Helvetica, sans-serif;
+  background-color: #CCC;
+}
+
+#wrap {
+  margin: 0 auto; /*centro*/
+  width: 1000px;
+}
+
+#header {
+  background: url(../Imagens/fundo.jpg) repeat-x;
+  height: 200px;
+  }
+
+#navbar {
+  height: 50px;
+  background-color: #666;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 900px;
+}
+
+#navbar ul li {
+  background: #CCC;
+  float: left;
+  margin:0 10px;
+  text-align: center;
+  width:200px;
+}
+
+#navbar ul li a {
+  color: #FFF;
+  display: block;
+  font-size: 20px;
+  padding:12px 0;
+  }
+
+#navbar ul li a:hover,
+#navbar ul li a:active {
+  background: #900;
+  color: #FFF;
+}
+
+#content {
+  overflow: auto;
+  background-color: #000;
+  }
+
+#esquerda {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background-color: #900;
+  margin: 10px;
+}
+
+#centro {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background-color: #900;
+  margin: 10px;
+  margin-left: 30px
+}
+
+#direita
+{
+  float: right;
+  width: 300px;
+  height: 600px;
+  background-color: #900;
+  margin: 10px;
+}
+
+#footer {
+  width: 1000px;
+  height: 50px;
+  clear: both;
+  background-color: #666;
+}
+
+p, h1, h2, h3, h4, a {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 10px;
+}
+
+content p {
+  font-size: 14px;
+}
+
+content a  {
+  float: right;
+}
+
+h1 {
+  font-size: 26px;
+  color: #FFF;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #FFF;
+}
+
+h3 {
+  font-size: 16px;
+  color: #FFF;
+  text-align: center;
+}
+
+h4 {
+  font-size: 12px;
+  color: #036;
+}
+
+a:link {
+  color: #03c;
+}
+
+a:visited {
+  color: #FFF;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #099;
+}
